@@ -52,6 +52,7 @@ configureShell() {
 	echo 'set hlsearch' >> ~vagrant/.vimrc
 	echo 'set incsearch' >> ~vagrant/.vimrc
 	echo 'let g:netrw_liststyle = 3' >> ~vagrant/.vimrc
+	echo 'syntax enable' >> ~vagrant/.vimrc
   fi
 
   # ===================================================================
@@ -74,6 +75,7 @@ configureShell() {
 	echo 'set hlsearch' >> ~vagrant/.vimrc
 	echo 'set incsearch' >> ~vagrant/.vimrc
 	echo 'let g:netrw_liststyle = 3' >> ~vagrant/.vimrc
+	echo 'syntax enable' >> ~vagrant/.vimrc
   fi
 
 }
