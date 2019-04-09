@@ -49,6 +49,8 @@ configureShell() {
   if [ $value -eq 0 ]; then
     echo 'set tabstop=2' >> ~root/.vimrc
 	echo 'set number' >> ~root/.vimrc
+	echo 'set hlsearch' >> ~vagrant/.vimrc
+	echo 'set incsearch' >> ~vagrant/.vimrc
   fi
 
   # ===================================================================
@@ -68,6 +70,8 @@ configureShell() {
   if [ $value -eq 0 ]; then
     echo 'set tabstop=2' >> ~vagrant/.vimrc
 	echo 'set number' >> ~vagrant/.vimrc
+	echo 'set hlsearch' >> ~vagrant/.vimrc
+	echo 'set incsearch' >> ~vagrant/.vimrc
   fi
 
 }
