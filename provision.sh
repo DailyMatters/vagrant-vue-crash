@@ -49,10 +49,10 @@ configureShell() {
   if [ $value -eq 0 ]; then
     echo 'set tabstop=2' >> ~root/.vimrc
 	echo 'set number' >> ~root/.vimrc
-	echo 'set hlsearch' >> ~vagrant/.vimrc
-	echo 'set incsearch' >> ~vagrant/.vimrc
-	echo 'let g:netrw_liststyle = 3' >> ~vagrant/.vimrc
-	echo 'syntax enable' >> ~vagrant/.vimrc
+	echo 'set hlsearch' >> ~root/.vimrc
+	echo 'set incsearch' >> ~root/.vimrc
+	echo 'let g:netrw_liststyle = 3' >> ~root/.vimrc
+	echo 'syntax enable' >> ~root/.vimrc
   fi
 
   # ===================================================================
